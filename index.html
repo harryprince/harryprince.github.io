@@ -62,18 +62,9 @@ $ git checkout gh-pages
       </section>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
 
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <title>ECharts</title>
-</head>
+
+
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
     <div id="main" style="height:400px"></div>
@@ -96,83 +87,83 @@ $ git checkout gh-pages
             function (ec) {
                 // 基于准备好的dom，初始化echarts图表
                 var myChart = ec.init(document.getElementById('main'));
- option = {
-    backgroundColor: '#1b1b1b',
-    color: ['gold','aqua','lime'],
-    title : {
-        text: '模拟迁徙',
-        subtext:'数据纯属虚构',
-        x:'center',
-        textStyle : {
-            color: '#fff'
-        }
-    },
-    tooltip : {
-        trigger: 'item',
-        formatter: '{b}'
-    },
-    legend: {
-        orient: 'vertical',
-        x:'left',
-        data:['北京 Top10', '上海 Top10', '广州 Top10'],
-        selectedMode: 'single',
-        selected:{
-            '上海 Top10' : false,
-            '广州 Top10' : false
-        },
-        textStyle : {
-            color: '#fff'
-        }
-    },
-    toolbox: {
-        show : true,
-        orient : 'vertical',
-        x: 'right',
-        y: 'center',
-        feature : {
-            mark : {show: true},
-            dataView : {show: true, readOnly: false},
-            restore : {show: true},
-            saveAsImage : {show: true}
-        }
-    },
-    dataRange: {
-        min : 0,
-        max : 100,
-        calculable : true,
-        color: ['#ff3333', 'orange', 'yellow','lime','aqua'],
-        textStyle:{
-            color:'#fff'
-        }
-    },
-    series : [
-        {
-            name: '全国',
-            type: 'map',
-            roam: true,
-            hoverable: false,
-            mapType: 'china',
-            itemStyle:{
-                normal:{
-                    borderColor:'rgba(100,149,237,1)',
-                    borderWidth:0.5,
-                    areaStyle:{
-                        color: '#1b1b1b'
-                    }
-                }
-            },
-            data:[],
-            markLine : {
-                smooth:true,
-                symbol: ['none', 'circle'],
-                symbolSize : 1,
-                itemStyle : {
-                    normal: {
-                        color:'#fff',
-                        borderWidth:1,
-                        borderColor:'rgba(30,144,255,0.5)'
-                    }
-                },
+                option = {
+                        backgroundColor: '#1b1b1b',
+                        color: ['gold','aqua','lime'],
+                        title : {
+                            text: '模拟迁徙',
+                            subtext:'数据纯属虚构',
+                            x:'center',
+                            textStyle : {
+                                color: '#fff'
+                            }
+                        },
+                        tooltip : {
+                          trigger: 'item',
+                          formatter: '{b}'
+                      },
+                      legend: {
+                          orient: 'vertical',
+                          x:'left',
+                          data:['北京 Top10', '上海 Top10', '广州 Top10'],
+                          selectedMode: 'single',
+                          selected:{
+                              '上海 Top10' : false,
+                              '广州 Top10' : false
+                          },
+                          textStyle : {
+                              color: '#fff'
+                          }
+                      },
+                      toolbox: {
+                          show : true,
+                          orient : 'vertical',
+                          x: 'right',
+                          y: 'center',
+                          feature : {
+                              mark : {show: true},
+                              dataView : {show: true, readOnly: false},
+                              restore : {show: true},
+                              saveAsImage : {show: true}
+                          }
+                      },
+                      dataRange: {
+                          min : 0,
+                          max : 100,
+                          calculable : true,
+                          color: ['#ff3333', 'orange', 'yellow','lime','aqua'],
+                          textStyle:{
+                              color:'#fff'
+                          }
+                      },
+                      series : [
+                          {
+                              name: '全国',
+                              type: 'map',
+                              roam: true,
+                              hoverable: false,
+                              mapType: 'china',
+                              itemStyle:{
+                                  normal:{
+                                      borderColor:'rgba(100,149,237,1)',
+                                      borderWidth:0.5,
+                                      areaStyle:{
+                                          color: '#1b1b1b'
+                                      }
+                                  }
+                              },
+                              data:[],
+                              markLine : {
+                                  smooth:true,
+                                  symbol: ['none', 'circle'],
+                                  symbolSize : 1,
+                                  itemStyle : {
+                                      normal: {
+                                          color:'#fff',
+                                          borderWidth:1,
+                                          borderColor:'rgba(30,144,255,0.5)'
+                                      }
+                                  },
                 data : [
                     [{name:'北京'},{name:'包头'}],
                     [{name:'北京'},{name:'北海'}],
@@ -659,6 +650,12 @@ $ git checkout gh-pages
 </body>
 
 
+              <!-- FOOTER  -->
+              <div id="footer_wrap" class="outer">
+                <footer class="inner">
+                  <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+                </footer>
+              </div>
 
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
