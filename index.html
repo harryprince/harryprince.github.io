@@ -86,7 +86,7 @@ $ git checkout gh-pages
                 echarts: 'http://echarts.baidu.com/build/dist'
             }
         });
-        
+
         // 使用
         require(
             [
@@ -95,10 +95,8 @@ $ git checkout gh-pages
             ],
             function (ec) {
                 // 基于准备好的dom，初始化echarts图表
-                var myChart = ec.init(document.getElementById('main')); 
-                
-                
-              option = {
+                var myChart = ec.init(document.getElementById('main'));
+ option = {
     backgroundColor: '#1b1b1b',
     color: ['gold','aqua','lime'],
     title : {
@@ -166,7 +164,7 @@ $ git checkout gh-pages
             data:[],
             markLine : {
                 smooth:true,
-                symbol: ['none', 'circle'],  
+                symbol: ['none', 'circle'],
                 symbolSize : 1,
                 itemStyle : {
                     normal: {
@@ -648,11 +646,13 @@ $ git checkout gh-pages
         }
     ]
 };
-                    
-            };
-        
-                // 为echarts对象加载数据 
-                myChart.setOption(option); 
+
+
+
+
+
+                // 为echarts对象加载数据
+                myChart.setOption(option);
             }
         );
     </script>
