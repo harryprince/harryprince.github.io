@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>HarryZhu's Blog</title>
+		<description>A Tech Blog about Data Science</description>
+		<link>http://www.harryzhu.name</link>
+		<atom:link href="http://www.harryzhu.name/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Jekyll Clean Theme</title>
+				<description>&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;knitr&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;opts_chunk&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;set&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;echo &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;r-markdown&quot;&gt;R Markdown&lt;/h2&gt;
+
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&quot;http://rmarkdown.rstudio.com&quot;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you click the &lt;strong&gt;Knit&lt;/strong&gt; button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;kp&quot;&gt;summary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;cars&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;including-plots&quot;&gt;Including Plots&lt;/h2&gt;
+
+&lt;p&gt;You can also embed plots, for example:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;pressure&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note that the &lt;code&gt;echo = FALSE&lt;/code&gt; parameter was added to the code chunk to prevent printing of the R code that generated the plot.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 02 Jan 2016 00:00:00 +0800</pubDate>
+				<link>http://www.harryzhu.name/2016/01/jekyll-clean-theme</link>
+				<guid isPermaLink="true">http://www.harryzhu.name/2016/01/jekyll-clean-theme</guid>
+			</item>
+		
+	</channel>
+</rss>
