@@ -4,13 +4,13 @@ name: HarryZhu's Blog
 description: A Tech Blog about Data Science
 
 # url is currently only used only for the RSS feed in feed.xml
-url: http://www.harryzhu.name
+url: http://harryprince.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: harryprince.github.io
+baseurl: /harryprince.github.io
 
 # This can be '' to hide the Github nav button
 github: 'harryprince/harryprince.github.io'
