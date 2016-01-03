@@ -10,12 +10,13 @@ output: html_document
 
 Today, I meet a big problem about my ERP system built in Google Sheets, and I don't want to shape a too complicated one such as WordPress or Django.
 
-In that, inspired by gspread, a python package, I am trying googlesheets package, a counterpart of another R package.
+In that, inspired by [gspread](https://github.com/burnash/gspread), a python package, I am trying [googlesheets package](https://github.com/jennybc/googlesheets), a counterpart of another R package.
 
 Firstly, download the git repository and install.
 
 ```{r}
 library(devtools)
+devtools::install_github("hadley/readr")
 devtools::install_github("jennybc/googlesheets")
 ```
 
@@ -36,7 +37,7 @@ bb <- gs_edit_cells(ss, input = head(iris), trim = TRUE) # edit the table
 gs_read(ss)
 ```
 
-the more method you can see the official manual!
+the more method you can see the official manual and [shiny exampl](https://jennybc.shinyapps.io/10_read-write-private-sheet)!
 
 Reference:[Jennifer in UsingR Conference 2015](https://speakerdeck.com/jennybc/googlesheets-talk-at-user2015)
 
