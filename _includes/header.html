@@ -27,11 +27,11 @@
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="">Home</a></li>
-                    <li class="active visible-xs-block"><a href="links.html">Links</a></li>
-                    <li class="active"><a href="archive.html">Archive</a></li>
-                    <li class="active"><a href="about.html">About</a></li>
-                    <li class="active"><a href="feed.xml">RSS</a></li>
+                    <li class="active"><a href="{{ site.url }}/">Home</a></li>
+                    <li class="active visible-xs-block"><a href="{{ site.url }}/links.html">Links</a></li>
+                    <li class="active"><a href="{{ site.url }}/archive.html">Archive</a></li>
+                    <li class="active"><a href="{{ site.url }}/about.html">About</a></li>
+                    <li class="active"><a href="{{ site.url }}/feed.xml">RSS</a></li>
                     {% if site.github != '' %}
                       <li class="active"><a href="https://github.com/{{ site.github }}">Github</a></li>
                     {% endif %}
