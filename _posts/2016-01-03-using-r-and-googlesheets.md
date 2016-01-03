@@ -12,7 +12,8 @@ Today, I meet a big problem about my ERP system built in Google Sheets, and I do
 
 In that, inspired by gspread, a python package, I am trying googlesheets package, a counterpart of another R package.
 
-Thanks for [Jennifer](https://speakerdeck.com/jennybc/googlesheets-talk-at-user2015)
+Thanks for
+ [Jennifer](https://speakerdeck.com/jennybc/googlesheets-talk-at-user2015)
 
 Firstly, download the git repository and install.
 
@@ -40,4 +41,6 @@ gs_read(ss)
 
 the more method you can see the official manual!
 
-Reference: (Jennifer in UsingR Conference 2015)[https://speakerdeck.com/jennybc/googlesheets-talk-at-user2015]
+Reference:[Jennifer in UsingR Conference 2015](https://speakerdeck.com/jennybc/googlesheets-talk-at-user2015)
+
+<script async class="speakerdeck-embed" data-id="f54a8a6044934d4187118a0ecb1cca16" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
