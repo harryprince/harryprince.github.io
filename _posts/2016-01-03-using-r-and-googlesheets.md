@@ -15,13 +15,13 @@ In that, inspired by gspread, a python package, I am trying googlesheets package
 Thanks for (Jennifer)[https://speakerdeck.com/jennybc/googlesheets-talk-at-user2015]
 
 Firstly, download the git repository and install.
-```{shell}
+```{cli}
 library(devtools)
 devtools::install_github("jennybc/googlesheets")
 ```
 
 If you're network blocked, you could download manually.
-```{shell}
+```{cli}
 git clone git@github.com:jennybc/googlesheets.git
 R CMD INSTALL googlesheets
 ```
