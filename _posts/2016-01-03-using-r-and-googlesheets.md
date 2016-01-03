@@ -17,14 +17,14 @@ Thanks for
 
 Firstly, download the git repository and install.
 
-```{cli}
+```{r}
 library(devtools)
 devtools::install_github("jennybc/googlesheets")
 ```
 
 If you're network blocked, you could download manually.
 
-```{cli}
+```
 git clone git@github.com:jennybc/googlesheets.git
 R CMD INSTALL googlesheets
 ```

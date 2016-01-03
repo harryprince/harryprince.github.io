@@ -1,0 +1,2 @@
+jekyll build --watch --incremental
+
