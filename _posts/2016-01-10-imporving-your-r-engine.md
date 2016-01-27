@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Improve Your R Engine"
+comments: false
+author: "Harry Zhu"
+date: "January 10, 2016"
+output: html_document
+---
+
+Today, I am introducing a power tool to improve your R engine performance without changing any R code in lots of features, like parallel, pipeline operation, compatible with Rstudio. Revolution R Open executes a typical R benchmark 2.5 times faster than the standard R distribution and some functions, such as linear regression, run up to 20 times faster.
+
+Here is the download link for Revolution R Open.
+<!-- data.table、doParalle -->
+
+```
+Revolution R Open 3.2.2
+Default CRAN mirror snapshot taken on 2015-08-27
+The enhanced R distribution from Revolution Analytics
+Visit mran.revolutionanalytics.com/open for information
+about additional features.
+
+Multithreaded BLAS/LAPACK libraries detected. Using 4 cores for math algorithms.
+```
