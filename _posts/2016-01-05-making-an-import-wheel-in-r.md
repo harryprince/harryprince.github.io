@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making an Import Wheel in R"
-comments: false
+comments: true
 author: "Harry Zhu"
 date: "January 5, 2016"
 output: html_document
@@ -13,7 +13,8 @@ In that, despite of the previous wheel packrat existing, which is built by Rstud
 
 This import function will load the dependancies, and install these uninstalled one. These will improve the environment problem.
 
-```{r}
+
+{% highlight r %}
 import <- function(packages){
   for (i in 1:length(packages)){
     package = packages[i];
@@ -37,4 +38,43 @@ import <- function(packages){
 
 dependencies = c("RMySQL","ggplot2","httr")
 import(dependencies)
-```
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## can not find RMySQL, we need to install it
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Warning: unable to access index for repository https://
+## mran.revolutionanalytics.com/snapshot/2015-08-27/src/contrib
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Warning: package 'RMySQL' is not available (for R version 3.2.2)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Loading required package: DBI
+## Loading required package: methods
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## can not find ggplot2, we need to install it 
+## 
+## The downloaded binary packages are in
+## 	/var/folders/f2/9jwh0h8s4y70r1jl3s7cq_5c0000gn/T//Rtmpqbv9uE/downloaded_packages
+## can not find httr, we need to install it 
+## 
+## The downloaded binary packages are in
+## 	/var/folders/f2/9jwh0h8s4y70r1jl3s7cq_5c0000gn/T//Rtmpqbv9uE/downloaded_packages
+{% endhighlight %}

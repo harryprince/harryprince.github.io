@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Reading Notebook with Advanced R by Hadley Wickham"
+categories: [jekyll, blog]
+tags: [knitr, servr, httpuv, websocket]
+---
+# the difference between closure and builtin
+
+example:
+
+```{r}
+f <- function(){}
+typeof(f)
+# > "closure"
+typeof(sum)
+# > "builtin"
+```
+
+mode() is just a shadow of typeof()
+
+To see if an object is a pure base type, i.e., it doesn’t also have S3, S4, or RC behaviour, check that is.object(x) returns FALSE.
+
+# Check Static Class by otype() and ftype()
+In S3, methods belong to functions, called generic functions, or generics for short. S3 methods do not belong to objects or classes. This is different from most other programming languages, but is a legitimate OO style.
+
+```{r}
+x = seq(10)
+y = rep(1,10)
+t = data.frame(x,y)
+otype(x)
+# > "base"
+otype(t)
+# > "S3"
+
+ftype(sum)
+# > [1] "primitive" "generic"
+
+ftype(mean)
+# > [1] "s3"      "generic"
+
+methods("mean")
+# > [1] mean.Date     mean.default  mean.difftime mean.POSIXct  mean.POSIXlt
+```
+
+```{R}
+foo <- structure(list(), class = "foo")
+
+```
+
+```{r}
+# 1. Pipe to first-argument of function
+rnorm(100) %>>%
+  plot
+# 
+# 2. Pipe to . in an expression
+# 
+rnorm(100) %>>%
+  plot(col="red", main=length(.))
+
+# pass left side result into right side point.
+
+```
+
+a[1, , drop = FALSE]

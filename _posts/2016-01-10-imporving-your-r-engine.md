@@ -12,12 +12,13 @@ Today, I am introducing a power tool to improve your R engine performance withou
 Here is the download link for Revolution R Open.
 <!-- data.table、doParalle -->
 
-```
-Revolution R Open 3.2.2
-Default CRAN mirror snapshot taken on 2015-08-27
-The enhanced R distribution from Revolution Analytics
-Visit mran.revolutionanalytics.com/open for information
-about additional features.
 
-Multithreaded BLAS/LAPACK libraries detected. Using 4 cores for math algorithms.
-```
+{% highlight r %}
+# Revolution R Open 3.2.2
+# Default CRAN mirror snapshot taken on 2015-08-27
+# The enhanced R distribution from Revolution Analytics
+# Visit mran.revolutionanalytics.com/open for information
+# about additional features.
+# 
+# Multithreaded BLAS/LAPACK libraries detected. Using 4 cores for math algorithms.
+{% endhighlight %}

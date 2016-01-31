@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: HarryZhu's Blog
-description: A Tech Blog about Data Science
+description: I'm Harry Zhu. This is a Tech Blog about Quant and DevOps based on Python and R.
 
 # url is currently only used only for the RSS feed in feed.xml
 url: http://www.harryzhu.name
@@ -16,21 +16,22 @@ baseurl: ''
 github: 'harryprince/harryprince.github.io'
 
 # Set this to your UA-# value, or '' to disable the block completely
-gaaccount: ''
+gaaccount: 'UA-55667757-5'
 
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: ''
+disqus: 'zhuharry'
 comments: true
 
 permalink: /:year/:month/:title
 paginate: 3
 
 highlighter: pygments
-markdown: redcarpet
+#markdown: redcarpet
+markdown: kramdown   
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 gems: ['jekyll-paginate']
 
-exclude: ['README.md', 'LICENSE']
+exclude: ['README.md', 'LICENSE','.gitignore']
